@@ -1,16 +1,15 @@
 <template>
-  <div class="home" @add-to-home="updateHome">
-
-  </div>
+	<div>
+  
+	</div>
 </template>
 
 <script>
 	export default {
-		methods: {
-			updateHome(item) {
-				this.push(item);
-			}
-		}
+		props: [
+
+		]
+
 	}
 </script>
 
